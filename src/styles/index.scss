@@ -1,0 +1,56 @@
+@use "./functions" as *;
+@use "./variables" as *;
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter-italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 100 900;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: $content;
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Inter';
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+}
+
+.storybook-root {
+    max-width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  width:100%;
+  padding-right: rem(16px);
+  padding-left: rem(16px);
+
+  @media (min-width:$breakpoint-desktop) {
+    max-width: rem(744px);
+  }
+}
+

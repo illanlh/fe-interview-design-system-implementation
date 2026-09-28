@@ -1,0 +1,33 @@
+$breakpoint-desktop: 48rem; /* Mobile On: 768px */
+
+$background: #eee;
+$content: #222;
+
+/* Spacing */
+$space-4xs: 0.125rem; /* 2px */
+$space-3xs: 0.25rem;  /* 4px */
+$space-2xs: 0.5rem;   /* 8px */
+$space-xs: 0.75rem;   /* 12px */
+$space-s: 1rem;       /* 16px */
+$space-m: 1.25rem;    /* 20px */
+$space-l: 1.5rem;     /* 24px */
+$space-xl: 2rem;      /* 32px */
+$space-2xl: 3rem;     /* 48px */
+
+/* Typography */
+$text-body-m: 14px;
+$line-height-body-m: 150%;
+$text-body-s: 12px;
+$line-height-body-s: 150%;
+$font-family: 'Inter';
+
+/* Colors */
+
+$color-black: #1B2134;
+$color-darkgrey: #343A4E;
+$color-grey: #585D71;
+$color-lightgrey: #D3D3DC;
+
+$color-surfacehigh: #F1F1F7;
+$color-surfacepositive: #B1FFC7;
+$color-surfacenegative: #FFBFB1;
